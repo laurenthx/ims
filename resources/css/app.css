@@ -1,3 +1,15 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+    @font-face {
+        font-family: 'mulishblack';
+        src: url('mulish-black-webfont.woff2') format('woff2'),
+             url('mulish-black-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        text-align: center;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+    }
